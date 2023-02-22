@@ -1,10 +1,10 @@
 {
     "keys": [
       {
+          "alg": "HS256",
           "kid": "sim2",
           "kty": "oct",
-          "k": "and0X3NlY3JldGU",
-          "alg": "HS256"
+          "k": "bXlfc2VjcmV0X2tleQ"
       }
     ]
 

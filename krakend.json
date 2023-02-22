@@ -25,11 +25,10 @@
                     "debug": false
                 },
                 "auth/validator": {
-                        "alg": "HS256",
-                        "jwk_url": "http://localhost:8081/symmetric.json",
-                        "cache": false,
-                        "disable_jwk_security": true,
-                        "operation_debug": true
+                    "alg": "HS256",
+                    "jwk_local_path": "./symmetric.json",
+                    "disable_jwk_security": true,
+                    "operation_debug": true
                 }
             },
             "backend": [
@@ -39,7 +38,7 @@
                     "sd": "static",
                     "method": "GET",
                     "host": [
-                        "http://localhost:8081"
+                        "http://node-authn:8081"
                     ],
                     "disable_host_sanitize": false
                 }
